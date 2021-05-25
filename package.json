@@ -1,11 +1,11 @@
 {
   "name": "fwc-change-history",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/my-custom-element.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-wc": "vue-cli-service build --target wc --name change-history ./src/components/VueWebComponent.vue",
+    "build-wc": "vue-cli-service build --target wc --name change-history ./src/components/change-history/ChangeHistory.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {

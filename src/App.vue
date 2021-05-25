@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <change-history entity-id="asdfasdf"
+                    entity-type="control"
+                    base-url="https://" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ChangeHistory from './components/change-history/ChangeHistory.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChangeHistory
   }
 }
 </script>
